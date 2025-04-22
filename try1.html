@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos destinations & Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- En-tête -->
+    <header>
+        <img src="Images/Header/LOGO.png" alt="logo" class="logo">
+        <nav>
+            <a href="#">Accueil</a>
+        </nav>
+    </header>
+
+    <!-- Bannière -->
+    <div class="banner">
+        <h1>Explorez vos destinations préférées</h1>
+    </div>
+
+    <!-- Section des destinations -->
+    <section class="container">
+        <div class="card">
+            <img src="Images/I.Nos destinations/tunisie.jpg" alt="La Tunisie">
+            <div class="content">
+                <h2>La Tunisie</h2>
+                <button>Explorez</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Images/I.Nos destinations/france.jpg" alt="La France">
+            <div class="content">
+                <h2>La France</h2>
+                <button>Explorez</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Images/I.Nos destinations/Egypte.jpg" alt="L'Égypte">
+            <div class="content">
+                <h2>L'Égypte</h2>
+                <button>Explorez</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Images/I.Nos destinations/chine.jpeg" alt="La Chine">
+            <div class="content">
+                <h2>La Chine</h2>
+                <button>Explorez</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Images/I.Nos destinations/spain.jpg" alt="L'Espagne">
+            <div class="content">
+                <h2>L'Espagne</h2>
+                <button>Explorez</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image décorative -->
+    <section class="header-image">
+        <img src="Images/I.Contact/background.jpg" alt="Image de fond avec globe en verre">
+    </section>
+
+    <!-- Formulaire de contact -->
+    <section class="contact-form">
+        <h1>Contactez-nous</h1>
+        <form>
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Votre email" required>
+
+            <label for="pays">Nos pays</label>
+            <select id="pays" name="pays">
+                <option>Votre ville</option>
+                <option value="Tunisie">Tunisie</option>
+                <option value="France">France</option>
+                <option value="Chine">Chine</option>
+                <option value="Égypte">Égypte</option>
+                <option value="Espagne">Espagne</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="À vos claviers..." rows="5" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="footer-center">
+            <p>Le Musée des Musées</p>
+        </div>
+        <div class="footer-right">
+            <a href="https://www.facebook.com/profile.php?id=61571176161705">
+                <img src="Images/Footer/facebook.png" alt="Facebook" class="social-icon">
+            </a>
+            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fsalma.khlifi4%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExWnFJUjd6Unp2SXRmTUtPTgEeuxfmLHy3Yo4oEwsYgL00yYKJVIOT2ZjPy0sCZdcSqUJ9GfPv0I_982yZehA_aem_EKTwtaudRck7eKCr7tjL3g&h=AT2dW6R6Ivuc38DVqvlUpSfvoaQSW9js5hIYPH5g7q7fp5vIKLligw37XChuKgj5gfXIwmlp45CLx2KXahqtVjafSUT1IjmxezGdx73-VYymEbucrxjXeL3zrAD6L33Aj1vqIg">
+                <img src="Images/Footer/instagram.png" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://www.linkedin.com/in/salma-khlifi-245608293/">
+                <img src="Images/Footer/linkedin.png" alt="linkedin" class="social-icon">
+            </a>
+        </div>
+    </footer>
+
+    <!-- JavaScript externe -->
+    <script src="script.js"></script>
+</body>
+</html>
